@@ -67,7 +67,7 @@ export default function Home() {
         </h1>
         <div className={styles.videoContainer}>
           <video controls className={styles.video}>
-            <source src="/LANDPAGE_ChatGPT2_2.mp4" type="video/mp4" />
+            <source src="https://www.youtube.com/embed/dA625K-T_Tw" type="video/mp4" />
           </video>
           <a
             onClick={() => {
@@ -269,7 +269,6 @@ var errorMap = [
 
 // initialise plugin
 var iti = window.intlTelInput(input, {
-  excludeCountries: ["ru", "ua"],
   initialCountry: "auto",
   autoPlaceholder: "aggressive",
   geoIpLookup: function (callback) {
