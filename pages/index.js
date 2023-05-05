@@ -66,7 +66,7 @@ export default function Home() {
           With The Most Advanced AI On The Planet
         </h1>
         <div className={styles.videoContainer}>
-          <video controls className={styles.video}>
+          <video controls autoplay muted className={styles.video}>
             <source src="/vid.mp4" type="video/mp4" />
           </video>
           <a
