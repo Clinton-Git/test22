@@ -8,10 +8,10 @@ export const applyAWScript = () => {
   }
 
   return (
-    <Script
-      strategy="beforeInteractive"
-      id="aw"
-      src={`https://www.googletagmanager.com/gtag/js?id=AW-${aw}>`}
-    />
+      <Script
+          strategy="beforeInteractive"
+          id="aw"
+          src={`https://www.googletagmanager.com/gtag/js?id=AW-${aw}`}
+      />
   );
 };
