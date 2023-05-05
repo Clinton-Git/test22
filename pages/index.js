@@ -4,7 +4,7 @@ import classNames from "classnames";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import Image from "next/Image";
+import Image from "next/image";
 import Script from "next/script";
 
 
