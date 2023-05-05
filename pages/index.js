@@ -67,7 +67,7 @@ export default function Home() {
         </h1>
         <div className={styles.videoContainer}>
           <video controls className={styles.video}>
-            <source src="https://www.youtube.com/embed/dA625K-T_Tw" type="video/mp4" />
+            <source src="/vid.mp4" type="video/mp4" />
           </video>
           <a
             onClick={() => {
